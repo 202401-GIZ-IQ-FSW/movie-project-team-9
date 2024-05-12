@@ -1,3 +1,4 @@
+/* src\styles\globals.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -18,9 +19,12 @@
 
 body {
   color: rgb(var(--foreground-rgb));
+  min-height: 100%;
    
 }
-
+#__next{
+  min-height: 100%;
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;
